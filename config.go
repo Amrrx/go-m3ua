@@ -7,7 +7,7 @@ package m3ua
 import (
 	"time"
 
-	"github.com/wmnsk/go-m3ua/messages/params"
+	"github.com/Amrrx/go-m3ua/messages/params"
 )
 
 // HeartbeatInfo is a set of information for M3UA BEAT.

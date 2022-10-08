@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/Amrrx/go-m3ua/messages/params"
 	"github.com/pkg/errors"
-	"github.com/wmnsk/go-m3ua/messages/params"
 )
 
 // Data is a PayloadData type of M3UA message.

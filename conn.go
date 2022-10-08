@@ -13,8 +13,8 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/ishidawataru/sctp"
-	"github.com/wmnsk/go-m3ua/messages"
-	"github.com/wmnsk/go-m3ua/messages/params"
+	"github.com/Amrrx/go-m3ua/messages"
+	"github.com/Amrrx/go-m3ua/messages/params"
 )
 
 type mode uint8

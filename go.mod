@@ -1,4 +1,4 @@
-module github.com/wmnsk/go-m3ua
+module github.com/Amrxx/go-m3ua
 
 go 1.16
 

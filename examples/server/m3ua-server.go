@@ -14,10 +14,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/wmnsk/go-m3ua/messages/params"
+	"github.com/Amrrx/go-m3ua/messages/params"
 
+	"github.com/Amrrx/go-m3ua"
 	"github.com/ishidawataru/sctp"
-	"github.com/wmnsk/go-m3ua"
 )
 
 func serve(conn *m3ua.Conn) {
@@ -44,8 +44,8 @@ func serve(conn *m3ua.Conn) {
 func main() {
 	var (
 		addr    = flag.String("addr", "127.0.0.1:2905", "Source IP and Port listen.")
-		hbInt   = flag.Duration("hb-interval", 0, "Interval for M3UA BEAT. Put 0 to disable")
-		hbTimer = flag.Duration("hb-timer", time.Duration(5*time.Second), "Expiration timer for M3UA BEAT. Ignored when hb-interval is 0")
+		hbInt   = flag.Duration("hb-interval", time.Duration(5*time.Second), "Interval for M3UA BEAT. Put 0 to disable")
+		hbTimer = flag.Duration("hb-timer", time.Duration(100*time.Second), "Expiration timer for M3UA BEAT. Ignored when hb-interval is 0")
 	)
 	flag.Parse()
 

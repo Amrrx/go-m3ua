@@ -2,10 +2,10 @@
 
 Simple M3UA protocol implementation in pure Golang.
 
-[![CircleCI](https://circleci.com/gh/wmnsk/go-m3ua.svg?style=shield)](https://circleci.com/gh/wmnsk/go-m3ua)
-[![GolangCI](https://golangci.com/badges/github.com/wmnsk/go-m3ua.svg)](https://golangci.com/r/github.com/wmnsk/go-m3ua)
-[![GoDoc](https://godoc.org/github.com/wmnsk/go-m3ua?status.svg)](https://godoc.org/github.com/wmnsk/go-m3ua)
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/wmnsk/go-m3ua/blob/master/LICENSE)
+[![CircleCI](https://circleci.com/gh/Amrrx/go-m3ua.svg?style=shield)](https://circleci.com/gh/Amrrx/go-m3ua)
+[![GolangCI](https://golangci.com/badges/github.com/Amrrx/go-m3ua.svg)](https://golangci.com/r/github.com/Amrrx/go-m3ua)
+[![GoDoc](https://godoc.org/github.com/Amrrx/go-m3ua?status.svg)](https://godoc.org/github.com/Amrrx/go-m3ua)
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Amrrx/go-m3ua/blob/master/LICENSE)
 
 ## Quickstart
 
@@ -20,7 +20,7 @@ go get -u github.com/pkg/errors
 go get -u github.com/ishidawataru/sctp
 go get -u github.com/google/go-cmp/cmp
 go get -u github.com/pascaldekloe/goe/verify
-go get -u github.com/wmnsk/go-m3ua
+go get -u github.com/Amrrx/go-m3ua
 ```
 
 _*Non-Linux machine is NOT supported, as this package relies much on [`github.com/ishidawataru/sctp`](https://github.com/ishidawataru/sctp)._
@@ -176,8 +176,8 @@ Also note that some exported APIs may be changed without notice before first rel
 
 ## Author
 
-Yoshiyuki Kurauchi ([My Website](https://wmnsk.com/) / [Twitter](https://twitter.com/wmnskdmms))
+Yoshiyuki Kurauchi ([My Website](https://Amrrx.com/) / [Twitter](https://twitter.com/Amrrxdmms))
 
 ## LICENSE
 
-[MIT](https://github.com/wmnsk/go-m3ua/blob/master/LICENSE)
+[MIT](https://github.com/Amrrx/go-m3ua/blob/master/LICENSE)

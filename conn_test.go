@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Amrrx/go-m3ua/messages/params"
 	"github.com/google/go-cmp/cmp"
 	"github.com/pkg/errors"
-	"github.com/wmnsk/go-m3ua/messages/params"
 
 	"github.com/ishidawataru/sctp"
 )
